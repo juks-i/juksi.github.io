@@ -1,0 +1,256 @@
+.button {
+  font-size: 25px;
+}
+
+div{
+    font-size:17px
+}
+
+p{
+    font-size:17px
+}
+
+body {
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+h1{
+	color:rgb(0, 0, 0);
+	text-align:center;
+	}
+
+#logo{ 
+    position:absolute; 
+    top:10; 
+    left:20; 
+} 
+
+body{
+    margin-left: 25%;
+    margin-right: 25%;
+    padding: 0px;
+    background-color: #a0bda8;
+    background-image: url("photos/stdanbg2.png");
+    background-size: 100%;
+    }
+
+mark {
+  background-color: yellow;
+  color: black;
+}
+
+
+.sidenav {   position: sticky;   top: 6px;    right: 0;   left: 0;   float: right;   padding:10px;   z-index:999998; }
+
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+  background-color: #1b6bf5;
+  border: 2px solid #1b6bf5;
+  color: #f5ea1b;
+  padding: 10px 26px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+  box-shadow: 0 0px 0px 0 rgba(0,0,0,0.5), 0 0px 0px 0 rgba(0,0,0,1); }
+
+.sidenav a:hover {
+background-color: #f5ea1b; /* Green */
+color: #1b6bf5;
+border: 2px solid #1b6bf5;
+box-shadow: 0 0px 0px 0 #1b6bf5, 0 3px 0px 0 #1b6bf5;
+}
+
+
+.main {
+    margin-left: 140px; 
+    font-size: 28px; 
+    padding: 0px 10px; }
+
+.responsive {
+  max-width: 100%;
+  height: auto;
+}
+
+.center-h {
+  display: flex; /* or display:grid */
+  justify-content: center;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+  padding: 42px;
+}
+
+@media screen and (max-width: 500px) {
+  .column {
+    width: 100%;
+  }
+}
+
+.image1{
+  box-shadow: 0 5px 15px 0 rgba(0,0,0,0.5), 0 0px 0px 0 rgba(0,0,0,1);
+}
+
+.space {
+  width: 55px;
+  height: auto;
+  display: inline-block;
+}
+
+.minispace {
+  width: 15px;
+  height: auto;
+  display: inline;
+}
+
+.margin-text {
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.margin-button-index {
+    margin-left: 28%;
+    margin-right: 28%;
+}
+
+.margin-button-two {
+    margin-left: 35%;
+    margin-right: 35%;
+}
+
+.margin-button-three {
+    margin-left: 26%;
+    margin-right: 26%;
+}
+
+.margin-button-back {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.button {
+  background-color: #1b6bf5;
+  border: 2px solid #1b6bf5;
+  color: #f5ea1b;
+  padding: 10px 22px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+  box-shadow: 0 0px 0px 0 rgba(0,0,0,0.5), 0 0px 0px 0 rgba(0,0,0,1);
+  width: 15%;
+  flex-grow: 3;
+  border-radius: 20px;
+}
+
+.button:hover {
+  background-color: #f5ea1b; /* yellow */
+  color: #1b6bf5;
+  padding: 10px 22px;
+  border: 2px solid #1b6bf5;
+  box-shadow: 0 0px 0px 0 #1b6bf5, 0 3px 0px 0 #1b6bf5;
+  border-radius: 20px;
+  flex-grow: 4;
+}
+
+.button:active {
+    background-color: #fff200;
+      transition-duration: 0s;
+}
+
+@media screen and (max-width: 1800px) {
+  .button, .button:hover {
+    width: 100%;
+  }
+
+@media screen and (max-width: 800px) {
+.margin-text {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.button-mini {
+  background-color: #1b6bf5;
+  border: 2px solid #1b6bf5;
+  color: #f5ea1b;
+  padding: 6px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+  box-shadow: 0 0px 0px 0 rgba(0,0,0,0.5), 0 0px 0px 0 rgba(0,0,0,1);
+}
+
+.button-mini:hover {
+  background-color: #f5ea1b; /* Green */
+  color: #1b6bf5;
+  border: 2px solid #1b6bf5;
+  box-shadow: 0 0px 0px 0 #1b6bf5, 0 3px 0px 0 #1b6bf5;
+
+}
+
+/*
+  background-image: url("bg2.webp");
+  background-size: 600px;
+//*  background-color:rgba(211, 51, 150,0.5);
+
+}
+
+	
+
+p {
+  font-family:cursive;
+  font-size: 28px;
+  color:rgb(255, 255, 255);
+  text-align:left;
+  text-indent:30px;
+  }
+
+br {
+  font-family: verdana;
+  font-size: 28px;
+  color:rgb(255, 255, 255);
+  text-align:left;
+  }
+
+   .button {
+        background-color: #2626bf;
+        color: #fff200;
+        padding: 10px;
+        border-radius: 10px;
+        -moz-border-radius: 10px;
+        -webkit-border-radius: 150px;
+        margin:105px
+    }
+    
+    .small-btn {
+        width: 60px;
+        height: 35px;
+    }
+    
+    .medium-btn {
+        width: 85px;
+        height: 40px;
+    }
+    
+    .big-btn {
+        width: 120px;
+        height: 50px;
+    }
